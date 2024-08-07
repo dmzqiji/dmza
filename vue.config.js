@@ -3,6 +3,9 @@
 //   transpileDependencies: true
 // })
 
+// 将dist目录推送到远程分支
+// git subtree push --prefix dist origin gh-pages
+
 module.exports = {
   assetsDir:'static',
   parallel:false,
